@@ -1,6 +1,7 @@
 <?php
 require_once '../inc/config.php';
 require_once( ROOT_PATH . "inc/products.php" );
+$products = get_products_all();
 ?>
 <?php
 $pageTitle = "Mike's Full Catalog of Shirts";
@@ -14,9 +15,9 @@ include( ROOT_PATH . 'inc/header.php' ); ?>
             <h1>Mike&rsquo;s Full Catalog of Shirts</h1>
 
             <ul class="products">
-                <?php foreach ( $products as $product_id => $product )
+                <?php foreach ( $products as $product )
                 {
-                    echo get_list_view_html( $product_id, $product );
+                    echo get_list_view_html( $product );
                 }
                 ?>
             </ul>
@@ -24,5 +25,4 @@ include( ROOT_PATH . 'inc/header.php' ); ?>
         </div>
 
     </div>
-
 <?php include( ROOT_PATH . 'inc/footer.php' ) ?>
