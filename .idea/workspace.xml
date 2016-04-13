@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f2ec5f6-5924-4c93-83d8-be3090837bd1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/nav-sprite.png" afterPath="$PROJECT_DIR$/img/nav-sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/index.php" afterPath="$PROJECT_DIR$/contact/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/config.php" afterPath="$PROJECT_DIR$/inc/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/footer.php" afterPath="$PROJECT_DIR$/inc/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/header.php" afterPath="$PROJECT_DIR$/inc/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/products.php" afterPath="$PROJECT_DIR$/inc/products.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/receipt/index.php" afterPath="$PROJECT_DIR$/receipt/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shirts/shirt.php" afterPath="$PROJECT_DIR$/shirts/shirt.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shirts/shirts.php" afterPath="$PROJECT_DIR$/shirts/shirts.php" />
     </list>
@@ -37,8 +44,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+            <state relative-caret-position="439">
+              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -53,11 +60,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/inc/config.php" />
-        <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/shirts/shirts.php" />
         <option value="$PROJECT_DIR$/shirts/shirt.php" />
         <option value="$PROJECT_DIR$/inc/products.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/inc/config.php" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
@@ -102,7 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -131,41 +137,14 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shirts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shirts4mike" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shirts4mike" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="inc" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shirts4mike" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shirts4mike" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,7 +201,8 @@
       <workItem from="1460390121437" duration="2762000" />
       <workItem from="1460460214597" duration="4219000" />
       <workItem from="1460546829021" duration="1233000" />
-      <workItem from="1460548218377" duration="1226000" />
+      <workItem from="1460548218377" duration="1655000" />
+      <workItem from="1460552348203" duration="189000" />
     </task>
     <task id="LOCAL-00001" summary="Add RewriteRules">
       <created>1460392327489</created>
@@ -231,17 +211,24 @@
       <option name="project" value="LOCAL" />
       <updated>1460392327489</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactor Codebase">
+      <created>1460551544401</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1460551544401</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11934000" />
+    <option name="totallyTimeSpent" value="12552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16910689" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16910689" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -278,33 +265,27 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add RewriteRules" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add RewriteRules" />
+    <MESSAGE value="Refactor Codebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor Codebase" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/inc/products.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding>
-            <marker date="1460548003953" expanded="true" signature="46:426" placeholder="{...}" />
-            <marker date="1460548003953" expanded="true" signature="458:780" placeholder="{...}" />
-            <marker date="1460548003953" expanded="true" signature="609:757" placeholder="{...}" />
-            <marker date="1460548003953" expanded="true" signature="697:751" placeholder="{...}" />
-            <marker date="1460548003953" expanded="true" signature="809:3012" placeholder="{...}" />
-            <marker date="1460548003953" expanded="true" signature="864:1084" placeholder="..." />
-            <marker date="1460548003953" expanded="true" signature="1114:1345" placeholder="..." />
-            <marker date="1460548003953" expanded="true" signature="1375:1605" placeholder="..." />
-            <marker date="1460548003953" expanded="true" signature="1635:1857" placeholder="..." />
-            <marker date="1460548003953" expanded="true" signature="1887:2119" placeholder="..." />
-            <marker date="1460548003953" expanded="true" signature="2149:2370" placeholder="..." />
-            <marker date="1460548003953" expanded="true" signature="2400:2621" placeholder="..." />
-            <marker date="1460548003953" expanded="true" signature="2651:2864" placeholder="..." />
-            <marker date="1460548003953" expanded="true" signature="2920:2987" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -358,21 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shirts/shirts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -391,29 +357,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding>
-            <marker date="1460548003953" expanded="true" signature="46:426" placeholder="{...}" />
-            <marker date="1460548003953" expanded="true" signature="458:780" placeholder="{...}" />
-            <marker date="1460548003953" expanded="true" signature="609:757" placeholder="{...}" />
-            <marker date="1460548003953" expanded="true" signature="697:751" placeholder="{...}" />
-            <marker date="1460548003953" expanded="true" signature="809:3012" placeholder="{...}" />
-            <marker date="1460548003953" expanded="true" signature="864:1084" placeholder="..." />
-            <marker date="1460548003953" expanded="true" signature="1114:1345" placeholder="..." />
-            <marker date="1460548003953" expanded="true" signature="1375:1605" placeholder="..." />
-            <marker date="1460548003953" expanded="true" signature="1635:1857" placeholder="..." />
-            <marker date="1460548003953" expanded="true" signature="1887:2119" placeholder="..." />
-            <marker date="1460548003953" expanded="true" signature="2149:2370" placeholder="..." />
-            <marker date="1460548003953" expanded="true" signature="2400:2621" placeholder="..." />
-            <marker date="1460548003953" expanded="true" signature="2651:2864" placeholder="..." />
-            <marker date="1460548003953" expanded="true" signature="2920:2987" placeholder="{...}" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+        <state relative-caret-position="439">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
           <folding />
         </state>
       </provider>
