@@ -42,6 +42,21 @@ include(ROOT_PATH . 'inc/header.php'); ?>
 
 				<h1>Mike&rsquo;s Full Catalog of Shirts</h1>
 
+				<div class="pagination">
+				<?php
+					$i = 0;
+					while($i < $total_pages){
+						$i += 1;
+						if ($i == $current_page) {
+							echo "<span>$i</span>";
+						}else{
+							echo "<a href='./?pg=$i'>$i</a>";
+						}
+					}
+				?>
+
+				</div>
+
 				<ul class="products">
 					<?php foreach($products as $product) {
 							echo get_list_view_html($product);

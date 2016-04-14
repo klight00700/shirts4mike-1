@@ -42,6 +42,19 @@ function get_products_search($s) {
     return $results;
 }
 
+function get_products_subset($positionStart,$positionEnd){
+    $subset = array();
+    $all = get_products_all();
+    $position = 0;
+    foreach ($all as $product) {
+        $position+=1;
+        if ($position>=$positonStart && $position <= $positionEnd) {
+            $subset[] = $product;
+        }
+    }
+    return $subset;
+}
+
 function get_products_count(){
     return count(get_products_all());
 }
