@@ -1,4 +1,7 @@
-<?php 
+<?php
+
+	echo "In this snapshot of the project files, the Shirt Detail pages are broken. We'll get them working again in the next badge!";
+	exit;
 
 	require_once("../inc/config.php");
 	require_once(ROOT_PATH . "inc/products.php");
